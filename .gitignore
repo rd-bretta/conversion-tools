@@ -1,0 +1,13 @@
+# Ignore the content of input-image and output-image in both folders
+jpg-png-to-webp/input-image/*
+jpg-png-to-webp/output-image/*
+webp-to-jpg/input-image/*
+webp-to-jpg/output-image/*
+
+# Allow the empty directories to be tracked
+!jpg-png-to-webp/input-image/.gitkeep
+!jpg-png-to-webp/output-image/.gitkeep
+!webp-to-jpg/input-image/.gitkeep
+!webp-to-jpg/output-image/.gitkeep
+
+node_modules/
